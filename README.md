@@ -1,4 +1,6 @@
-# asd-ste100
+<p align="center">
+  <img src="assets/banner.svg" alt="ASD-STE100: Cut the words. Keep the meaning." />
+</p>
 
 A Claude Code skill that makes Claude write technical content in ASD-STE100 Simplified Technical English (Issue 9, January 2025).
 
@@ -34,7 +36,11 @@ This skill is guidance only. It has no scripts.
 
 ## Install
 
-Copy this folder to `~/.claude/skills/asd-ste100/` (all projects) or to `.claude/skills/asd-ste100/` (one project). The folder name must match the `name` in `SKILL.md`.
+```sh
+npx skills add frangeris/asd-ste100-skill
+```
+
+To install it by hand instead, copy this folder to `~/.claude/skills/asd-ste100/` (all projects) or to `.claude/skills/asd-ste100/` (one project). The folder name must match the `name` in `SKILL.md`.
 
 ## Files
 
